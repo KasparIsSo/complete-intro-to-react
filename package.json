@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "api": "node ratingsAPI.js"
+    "api": "node ratingsAPI.js",
+    "format": "prettier --config prettier.config.js --write \"js/**/*.{js,jsx}\""
   },
   "dependencies": {
     "axios": "0.16.1",
